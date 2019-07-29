@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <RadioButton
+        android:id="@+id/vod_pay_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vod_pay"
+        android:button="@null" />
+
+    <TextView
+        android:id="@+id/vod_pay_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:singleLine="true"
+        android:textColor="@drawable/livelist_txt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/vod_pay_money2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:singleLine="true"
+        android:textColor="@drawable/livelist_txt"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/pay_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/pay_icon"
+        android:visibility="gone" />
+</LinearLayout>

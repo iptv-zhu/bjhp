@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="left_list_name">#f08201</color>
+    <!--welcome-->
+    <color name="welcome_timeout">#333333</color>
+    <!--main-->
+    <color name="black55">#55000000</color>
+    <color name="black75">#A5000000</color>
+    <color name="orange82">#ef8200</color>
+    <!--live-->
+    <color name="livelist_txt">#ef8200</color>
+
+    <color name="order_list">#4b3b1d</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+</resources>

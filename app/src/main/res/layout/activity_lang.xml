@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/fram_lang_ico" />
+
+        <RadioGroup
+            android:id="@+id/lang_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/lang_zh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawablePadding="28dp"
+                android:drawableTop="@drawable/lang_zh_bg"
+                android:gravity="center"
+                android:text="欢迎光临"
+                android:textColor="@drawable/lang_text"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/lang_en"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="159dp"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawablePadding="28dp"
+                android:drawableTop="@drawable/lang_en_bg"
+                android:gravity="center"
+                android:text="Welcome"
+                android:textColor="@drawable/lang_text"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/lang_ft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="159dp"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawablePadding="28dp"
+                android:drawableTop="@drawable/lang_ft_bg"
+                android:gravity="center"
+                android:text="歡迎光臨"
+                android:textColor="@drawable/lang_text"
+                android:textSize="30sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="67dp">
+
+            <ImageButton
+                android:id="@+id/lang_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ok_btn" />
+
+            <ImageButton
+                android:id="@+id/lang_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="142dp"
+                android:background="@drawable/cancle_btn" />
+        </LinearLayout>
+
+</RelativeLayout>

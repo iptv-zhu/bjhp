@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Prison</string>
+    <string name="qrtips">微信扫码关注</string>
+    <string name="network_error">网络连接失败！请您检查设备网络状况！</string>
+    <string name="server_error">连接服务器失败！请您联系工作管理人员！</string>
+    <string name="reserver">正在尝试重新连接服务器…</string>
+    <string name="time_tips">s后可以重新尝试…</string>
+
+    <string name="msginsname">计划插播：</string>
+    <string name="insname">即时插播：</string>
+    <string name="weekname">周计划插播：</string>
+    <string name="license_error">设备授权已过期！</string>
+    <string name="relicense">正在重新验证设备授权…</string>
+    <string name="mac_error">MAC地址未开通！</string>
+    <string name="remac">正在重新验证Mac是否开通…</string>
+
+    <string name="Download">应用下载</string>
+    <string name="AutoUpdate">自动下载更新中</string>
+    <string name="Downloading_update">正在下载升级包。请稍后...</string>
+    <string name="update_title">升级提示</string>
+    <string name="update_content">检测到版本需要升级！是否下载安装？</string>
+    <string name="Downloading_game">正在下载应用。请稍后...</string>
+    <string name="Downloading_live">正在下载直播应用。请稍后...</string>
+    <string name="Downloading_vod">正在下载视频应用。请稍后...</string>
+    <string name="Downloading_music">正在下载音乐应用。请稍后...</string>
+    <string name="Background">后台下载</string>
+    <string name="Complete">下载成功</string>
+    <string name="DownFailed">下载失败</string>
+    <string name="Ok">确\t定</string>
+    <string name="Cancle">取\t消</string>
+    <!--welcome-->
+
+    <string name="zh">中文</string>
+    <string name="ft">繁体</string>
+    <string name="en">English</string>
+    <string name="welcome_city">城市</string>
+    <string name="welcome_tmp">°C</string>
+    <string name="welcome_weather_status1">晴</string>
+    <string name="welcome_user_title">尊敬的X先生：</string>
+    <string name="welcome_word">\t\t\t\t欢迎下榻本酒店,我们将竭诚为您服务，衷心祝你旅途愉快！</string>
+
+    <string name="welcome_tips">请按【OK】键进入主菜单</string>
+
+
+    <!--bottom-->
+    <string name="bottom_control">键控制</string>
+    <string name="bottom_choose">键选择</string>
+    <string name="bottom_ok">键确定</string>
+    <string name="bottom_back">键返回</string>
+    <string name="bottom_msg_tips">您有新消息！</string>
+    <!--bottom-->
+    <string name="live_name">频道</string>
+    <string name="live_count">(共X个)</string>
+    <string name="live_cat1">高清直播</string>
+    <string name="live_cat2">模拟直播</string>
+    <string name="live_cat2_error">尚未找到模拟直播应用</string>
+    <string name="live_cat3">第三方直播</string>
+    <string name="play_error">播放异常</string>
+    <string name="nodate">没有更多了，请联系管理员添加内容。</string>
+    <string name="live_none">未找到此频道</string>
+
+
+    <string name="vod_new">最新</string>
+    <string name="vod_hot">最热</string>
+    <string name="vod_search">搜索</string>
+    <string name="vod_name">片\t名:\t</string>
+    <string name="vod_type">类\t型:\t</string>
+    <string name="vod_star">主\t演:\t</string>
+    <string name="vod_ditor">导\t演:\t</string>
+    <string name="vod_price">价\t格:\t</string>
+    <string name="vod_intro">简\t介:\t</string>
+    <string name="vod_play">播\t放</string>
+    <string name="vod_nofile">该资源不存在</string>
+    <string name="vod_error">播放视频异常,请联系管理人员！</string>
+    <string name="vod_free">免\t费\t</string>
+    <string name="vod_backwarn">提示：\t按“返回”键取消</string>
+    <string name="vod_exitwarn">确定退出播放？</string>
+    <string name="vod_ok">确\t定</string>
+    <string name="vod_add_voderror">播放异常,请联系管理人员添加视频</string>
+    <string name="music_processtime">00:00</string>
+    <string name="res_error">未知资源类型</string>
+    <string name="vod_pay_time">点播本片</string>
+    <string name="vod_pay_day">点播包片</string>
+    <string name="vod_pay_money">(点播资费x元)</string>
+
+    <string name="wifi_network">网络设置</string>
+    <string name="wifi_ap">WIFI热点</string>
+    <string name="wifi_ssid">网络\tSSID:</string>
+    <string name="wifi_ssidname">AP</string>
+    <string name="wifi_safe">安\t全\t性:</string>
+    <string name="wifi_safetype">WAP2 PSK</string>
+    <string name="wifi_psw">密\t \t \t码:</string>
+    <string name="wifi_pswd">123456789</string>
+    <string name="wifi_showpsw">显示密码</string>
+    <string name="wifi_showpswd">(密码至少包含8个字符)</string>
+    <string name="wifi_start">开启</string>
+    <string name="wifi_onscuess">开启成功</string>
+    <string name="wifi_onerror">开启失败</string>
+    <string name="wifi_stop">关闭</string>
+    <string name="wifi_oferror">关闭失败</string>
+    <string name="wifi_ofscuess">关闭成功</string>
+    <string name="wifi_fail">开启wifi热点失败，请检查你输入的ssid和密码是否正确!</string>
+
+    <string name="lang_scuess">修改成功</string>
+
+
+    <string name="shop_time">供应时间：</string>
+    <string name="shop_sale">已售0份</string>
+    <string name="shop_price">￥</string>
+    <string name="shop_dialog_tips">是否将</string>
+    <string name="one">1</string>
+    <string name="shop_dialog_tips3">份放进购物车?</string>
+    <string name="shop_product_intro">商品描述</string>
+    <string name="shop_clean_car">清空购物车</string>
+    <string name="shop_clean_order">取消订单</string>
+    <string name="shop_car_no">序号</string>
+    <string name="shop_car_name">商品名称</string>
+    <string name="shop_car_num">数量</string>
+    <string name="shop_car_price">单价￥</string>
+    <string name="shop_tolprice">总价￥</string>
+    <string name="shop_allprice">合计(￥)：</string>
+    <string name="shop_yuan">元</string>
+    <string name="shop_cartnull">请先加入购物车!</string>
+    <string name="shop_add_cart_scuess">添加购物车成功!</string>
+    <string name="shop_clean_cart">确定清空购物车？</string>
+    <string name="shop_clean_cart_scuess">清空成功!</string>
+    <string name="shop_addorder">添加到订单!</string>
+    <string name="shop_orderscu">下单成功!</string>
+    <string name="shop_clean_orders">确定取消订单？</string>
+    <string name="shop_clean_order_scuess">清空成功!</string>
+    <string name="shop_ordernull">您还没有任何订单!</string>
+    <string name="shop_order_ok">确定提交订单？</string>
+    <string name="shop_tel">输入联系电话</string>
+    <string name="shop_telerror">请输入正确的联系方式!</string>
+
+    <!-- email -->
+    <string name="email_status">状态</string>
+    <string name="email_time">时间</string>
+    <string name="email_title">留言</string>
+    <string name="email_content">详细</string>
+    <string name="email_title0">餐厅已接收到你的商品下单</string>
+    <string name="email_title1">餐厅已接收到你的商品下单</string>
+    <string name="email_title2">餐厅已接收到你的商品下单</string>
+    <string name="email_title3">餐厅已接收到你的商品下单</string>
+    <string name="email_title4">餐厅已接收到你的商品下单</string>
+    <string name="email_title5">餐厅已接收到你的商品下单</string>
+    <string name="email_title6">餐厅已接收到你的商品下单</string>
+    <string name="email_content0">餐厅已接收到你的商品下单,我们会尽快为你出餐、请你在客房内稍作等候</string>
+    <string name="email_content1">餐厅已接收到你的商品下单,我们会尽快为你出餐、请你在客房内稍作等候</string>
+    <string name="email_content2">餐厅已接收到你的商品下单,我们会尽快为你出餐、请你在客房内稍作等候</string>
+    <string name="email_content3">餐厅已接收到你的商品下单,我们会尽快为你出餐、请你在客房内稍作等候</string>
+    <string name="email_content4">餐厅已接收到你的商品下单,我们会尽快为你出餐、请你在客房内稍作等候</string>
+    <string name="email_content5">餐厅已接收到你的商品下单,我们会尽快为你出餐、请你在客房内稍作等候</string>
+    <string name="email_content6">餐厅已接收到你的商品下单,我们会尽快为你出餐、请你在客房内稍作等候</string>
+
+
+    <!-- service -->
+    <string name="xie">/</string>
+    <string name="mao">:</string>
+    <string name="submit">提交成功,商家已接受信息。</string>
+    <string name="day">天</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="ri">日</string>
+    <string name="month">月</string>
+    <string name="cleantime">预约打扫时间</string>
+    <string name="already">(预约中)</string>
+    <string name="calltime">预约叫醒时间</string>
+    <string name="service_info">0/1 | 共8个文件</string>
+    <string name="roomStart">您入住的时间\t:\t</string>
+    <string name="sureaddroom">现在确定续房？</string>
+    <string name="roomEnd">现在确定退房？</string>
+    <string name="addRoom">我要续房</string>
+    <string name="exitroomtxt">感谢您的入住！欢迎再次光临！</string>
+    <!-- brow -->
+    <string name="brow_cannum">库存\t:\t</string>
+    <string name="brow_backwarn">提示:按“返回”键取消</string>
+    <string name="brow_count">数量:</string>
+    <string name="brow_exitwarn">确定借用该物品？</string>
+    <string name="brow_ok">确\t定</string>
+    <!-- order -->
+    <string name="order_usname">房间号\t:\t</string>
+    <string name="order_indate">入住时间\t:\t</string>
+    <string name="order_rmtype">房间类型:</string>
+    <string name="order_date">日期</string>
+    <string name="order_no">序号</string>
+    <string name="order_time">时间</string>
+    <string name="order_msg">消费内容</string>
+    <string name="order_price">单价(元)</string>
+    <string name="order_num">数量</string>
+    <string name="order_total">价格(元)</string>
+    <string name="order_total2">合计\t:\tx(元)</string>
+
+    <string name="video_time">上一次观看到x,是否继续播放?</string>
+
+
+    <string name="title">满意度问卷调查表</string>
+    <string name="tishi">\t\t尊敬的用户，您好!感谢您对我们工作的支持。请您根据自身感受填写这张表格，
+        对我们的服务质量等方面给予真实的评价，以便我们改进工作，为您提供更好的服务。我们对本问卷的信息保密负责，谢谢合作!</string>
+    <string name="my">1.满意</string>
+    <string name="jbmy">2.基本满意</string>
+    <string name="bmy">3.不满意</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <!-- usb -->
+    <string name="usb_1">视频</string>
+    <string name="usb_2">音乐</string>
+    <string name="usb_3">图片</string>
+    <string name="usb_4">文档</string>
+    <string name="usb_5">其他</string>
+    <string name="usb_in">检测到USB设备</string>
+    <string name="usb_out">USB设备已拔出</string>
+    <string name="usb_error">USB路径异常，该功能不适用于此机顶盒</string>
+
+
+    <string name="no_source_select">选择右边的信号源</string>
+    <string name="play_in_window">在小窗口播放</string>
+    <string name="play_full_screen">全屏播放</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/fram_game_ico" />
+
+    <GridView
+        android:id="@+id/fram_game"
+        android:layout_width="match_parent"
+        android:horizontalSpacing="10dp"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/game_select_bg"
+        android:numColumns="3"></GridView>
+
+
+</FrameLayout>

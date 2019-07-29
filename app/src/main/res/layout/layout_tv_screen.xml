@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_screen_window"
+        android:layout_width="800dp"
+        android:layout_height="600dp"
+        android:layout_margin="100dp"
+        android:text="@string/no_source_select"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="50sp" />
+
+    <ListView
+        android:id="@+id/source_list"
+        android:layout_width="150dp"
+        android:layout_height="600dp"
+        android:layout_gravity="end"
+        android:layout_margin="100dp"
+        android:background="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_play_in_full_screen"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="500dp"
+            android:text="@string/play_full_screen" />
+
+</FrameLayout>
